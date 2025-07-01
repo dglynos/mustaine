@@ -11,7 +11,7 @@ By placing multiple calls to the vulnerable (to SSRF) endpoint, the attacker
 will eventually deplete the file descriptors available to the web application
 process(es) and will bring the application to a Denial of Service condition.
 
-The aforementioned technique can help turn an otherwise trivial SSRF issue 
+The aforementioned technique can help turn an otherwise low-value SSRF issue 
 to a nice MEDIUM risk issue under CVSS.
 
 This repository introduces two tools (`mustaine-thrash` and `mustained`) 
