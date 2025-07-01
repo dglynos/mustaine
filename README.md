@@ -1,7 +1,7 @@
 # mustaine
 
 This repository holds a set of tools to experiment with timeouts in 
-requests made by web applications backends.
+requests made by web application backends.
 
 When a web application is vulnerable to a Server Side Request Forgery (SSRF)
 issue and the relevant request made by the web application uses a long 
