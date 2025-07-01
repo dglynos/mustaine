@@ -1,7 +1,7 @@
 # mustaine
 
-This repository holds a set of tools to measure timeouts in requests made
-by web applications backends. 
+This repository holds a set of tools to experiment with timeouts in 
+requests made by web applications backends.
 
 When a web application is vulnerable to a Server Side Request Forgery (SSRF)
 issue and the relevant request made by the web application uses a long 
@@ -12,7 +12,10 @@ will eventually deplete the file descriptors available to the web application
 process(es) and will bring the application to a Denial of Service condition.
 
 This repository introduces two tools (`mustaine-thrash` and `mustained`) 
-to measure timeouts in requests made by web application backends.
+to measure timeouts in requests made by web application backends, and to
+abuse these timeouts for DoS purposes.
+
+See the [BSides Athens 2025 Presentation Slides](docs/bsides-ath-2025-ssrf.pdf) for more information about the technique and the tools.
 
 ## Build
 
